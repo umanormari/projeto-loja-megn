@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEGN ARTS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilo.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+    <body>
+        <header class="cabecalho">
+            <img src="src/imagens/logo.png" alt="logo" class="logo"/>
+            <h1 style="font-family: 'Outfit', sans-serif;"></h1>
+        </header>
+    
+    <main class="slider"> 
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+             <img src="src/imagens/seta.png" alt="seta voltar"/>
+        </button>
+
+        <ul class="lista-produtos">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Produto</h2>
+                    <p class="By">Chaveiro</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/chaveiro-coracao-encaixe.png" alt="chaveiro-coracao-encaixe" class="imagem-item">
+                </div>
+
+                <div class="descricao">
+                    <h2 class="titulo">Descrição</h2>
+                    <p class="texto">Chaveiro de coração quebra-cabeças encaixe perfeito.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h3 class="nome">Produto</h3>
+                    <p class="By">Placa</p>
+                </div>
+                
+                <div class="container-imagem">
+                    <img src="src/imagens/placa-pix.png" alt="placa-pix" class="imagem-item">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Placa QRCODE chave PIX.</p>
+                </div>
+            </li>
+            
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h4 class="nome"> Produto </h4>
+                    <p class="By">Chaveiro</p>
+                </div>
+                
+                <div class="container-imagem">
+                    <img src="src/imagens/chaveiros-memes.png" alt="chaveiros-memes" class="imagem-item">
+                </div>
+
+                <div class="descricao">
+                    <h4 class="titulo">Descrição</h4>
+                    <p class="texto">Chaveirinhos de memes.</p>
+                </div>
+            </li>
+        </ul>
+
+            <button class="btn-seta" id="btn-avancar">
+                <img src="src/imagens/seta.png" alt="seta avançar" />
+            </button>
+        </main>
+
+        <script src="src/js/index.js"> </script>
+    </body>
+</html>
